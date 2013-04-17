@@ -1,5 +1,5 @@
-edgar
+edgar estrella
 
 jorge núñez
 
-<enrique>
+enrique
