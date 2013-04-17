@@ -1,5 +1,5 @@
 edgar ricardo estrella
 
-jorge núñez
+jorge alberto núñez
 
 enrique
