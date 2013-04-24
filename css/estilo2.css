@@ -1,6 +1,7 @@
 body{
 	margin:0px;
 	padding:0px;
+	background-color:000033; 
 }
 
 #container{
@@ -69,11 +70,16 @@ header nav ul li a:hover{
 }
 
 section, aside{ margin-top:15px}
+section, aside { margin-left:25px}
+footer, aside {margin-left:25px}
+footer, aside {margin-right:25px}
+aside, aside {margin-right:25px}
+
 
 section{
 	background-color: #304c7b;
-	min-width: 1000px;
-	width: 1000px;	
+	min-width: 600px;
+	width: 600px;	
 	height: 400px;
 	position: relative;
 	float:left;
@@ -89,7 +95,27 @@ section span{
 	font-size: 30px;
 	color: #EEE;
 	text-shadow: 0px 0px 7px #FFF;
+}
 
+aside{
+	background-color: #304c7b;
+	min-width:310px;
+	width: 310px;
+	height: 200px;
+	position:relative;
+	float:right;
+	display:inline-block;
+	margin-bottom:25px;
+	border:2px solid blue;
+}
+
+aside span{
+	display:block;
+	padding:6px;
+	font-weight:bold;
+	font-size: 30px;
+	color: #EEE;
+	text-shadow: 0px 0px 7px #FFF;
 }
 
 

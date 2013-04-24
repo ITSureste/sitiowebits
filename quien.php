@@ -29,6 +29,13 @@
 				<span>¿Quienes Somos?</span>
 			</section>
 
+			<aside>
+			<span>Mision</span>
+				<text>informacion</text>
+
+			</aside>
+
+
 			<footer>
 				<nav>
 					<ul>
