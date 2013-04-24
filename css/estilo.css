@@ -62,7 +62,8 @@ header nav ul li a{
     width: 132px;
 }
 
-header nav ul li a:hover{	
+header nav ul li a:hover,
+#inicio header nav ul li.inicio a{	
 	background:rgba(255,255,255,0.3);
 	color:black;
 	border-radius:25px 0px 25px 0px;

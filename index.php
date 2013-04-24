@@ -5,21 +5,21 @@
 		<title>IT SURESTE</title>
 		<link rel="stylesheet" href="css/estilo.css" />
 	</head>
-	<body>
+	<body id="inicio">
 		<div id="container">
 			<header>
 				<figure>
 					<a href="index.php">
-						<img src="img/logo.png" />
+						<img src="img/logo.png" alt=""/>
 					</a>
 					<!--<figcaption>Aqui va el slogan</figcaption>-->
 				</figure>				
 				<nav>				
 					<ul>
-						<li><a href="#">Inicio</a></li>
-						<li><a href="#">Quienes Somos</a></li>
-						<li><a href="#">Servicios</a></li>
-						<li><a href="#">Contactanos</a></li>						
+						<li class="inicio"><a href="#">Inicio</a></li>
+						<li class=""><a href="#">Quienes Somos</a></li>
+						<li class="servicios"><a href="#">Servicios</a></li>
+						<li class="contactanos"><a href="#">Contactanos</a></li>						
 					</ul>
 				</nav>
 				<div class="clean"></div>
@@ -46,6 +46,10 @@
 			</aside>
 			
 			<footer>
+				<div>
+					<p><a href="#" target="_blank">Siguenos en Twitter</a> o a nuestro Facebook <a href="#" target="_blank">Contacto en Facebook</a>.</p>
+					<p>© Copyright ITSureste. Todos los derechos Reservados.</p>
+				</div>
 				<nav>
 					<ul>
 						<li><a href="#">Mapa del Sitio</a></li>
