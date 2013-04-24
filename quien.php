@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>IT SURESTE</title>
-		<link rel="stylesheet" href="css/estilo.css" />
+		<link rel="stylesheet" href="css/estilo2.css" />
 	</head>
 	<body>
 		<div id="container">
@@ -24,27 +24,11 @@
 				</nav>
 				<div class="clean"></div>
 			</header>
-			
+
 			<section>
-				<span>Hello section</span>
-				<article id="art1"> Hello Article 1</article>
-				<article id="art2"> Hello Article 2</article>
+				<span>¿Quienes Somos?</span>
 			</section>
-				
-			<aside>
-				Hello Aside
-				<p>
-					PMSA: Dejenme el header ya mero lo tengo XD
-					<br/> 
-					<br/> 
-					Al parecer hay un detalle con el "nav" en el IE9, chrome y firefox running.
-					<br/>
-					<br/>
-					Hora entrada: 10:15pm<br/>
-					Hora salida: 2:00am													
-				</p>
-			</aside>
-			
+
 			<footer>
 				<nav>
 					<ul>
