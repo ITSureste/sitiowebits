@@ -81,6 +81,7 @@ section{
 	min-width: 600px;
 	width: 600px;	
 	height: 400px;
+	border-radius:30px;
 	position: relative;
 	float:left;
 	display:inline-block;
@@ -102,6 +103,7 @@ aside{
 	min-width:310px;
 	width: 310px;
 	height: 200px;
+	border-radius:30px;
 	position:relative;
 	float:right;
 	display:inline-block;
