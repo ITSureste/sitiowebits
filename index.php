@@ -52,29 +52,80 @@
 			
 			<section>
 				<span>Hello section</span>
-				<article id="art1"> Hello Article 1</article>
-				<article id="art2"> Hello Article 2</article>
+				<article id="art1">
+					<p style="padding:10px;">					
+						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+						Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
+						cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+						galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+						No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+						quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", 
+						las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
+						como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.												
+					</p>
+				</article>
+				<article id="art2">
+					<p style="padding:10px;">					
+						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+						Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
+						cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+						galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+						No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+						quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", 
+						las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
+						como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.												
+					</p>
+				</article>
 			</section>
 				
 			<aside>
 				Hello Aside
-				<p>
-					PMSA: Dejenme el header ya mero lo tengo XD
-					<br/> 
-					<br/> 
-					Al parecer hay un detalle con el "nav" en el IE9, chrome y firefox running.
-					<br/>
-					<br/>
-					Hora entrada: 10:15pm<br/>
-					Hora salida: 2:00am													
+				<p style="padding:10px;">					
+					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+					Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
+					cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+					galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+					No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+					quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", 
+					las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
+					como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.												
 				</p>
 			</aside>
 			
 			<footer>
 				<nav>
-					<ul>
-						<li><a href="#">Mapa del Sitio</a></li>
-					</ul>
+					
+					<div class="navFooter">
+						<span>Contactos</span>
+						<ul>
+							<li><a href="#">Mapa del Sitio</a></li>
+							<li><a href="#">Que onda</a></li>
+							<li><a href="#">Ciudades</a></li>
+							<li><a href="#">Paises</a></li>
+						</ul>
+					</div>
+					
+					<div class="navFooter">
+						<span>Servicios</span>
+						<ul>
+							<li><a href="#">Mapa del Sitio</a></li>
+							<li><a href="#">Que onda</a></li>
+							<li><a href="#">Ciudades</a></li>
+							<li><a href="#">Paises</a></li>
+						</ul>
+					</div>
+					
+					<div class="navFooter">
+						<span>Oficinas</span>
+						<ul>
+							<li><a href="#">Mapa del Sitio</a></li>
+							<li><a href="#">Que onda</a></li>
+							<li><a href="#">Ciudades</a></li>
+							<li><a href="#">Paises</a></li>
+						</ul>
+					</div>
+					
+					<div class="clean"></div>
 				</nav>
 			</footer>
 		</div>
