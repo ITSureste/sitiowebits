@@ -32,7 +32,7 @@ header nav{
 	display: inline-block;
 	background: #304c7b;
 	float: left;	
-	border-radius: 30px 30px 0px 0px;
+	border-radius: 25px 25px 0px 0px;
 	padding: 0px 40px 0px 40px;
 	width: 645px;
 	position: relative;
@@ -128,5 +128,49 @@ aside{
 
 footer{	
 	clear:both;
-	border:1px solid purple;
+	background: #304c7b;	
+	border-radius: 0px 0px 20px 20px;	
+}
+
+footer nav{	
+	background: #304c7b;		
+	margin:auto;
+	width:480;
+	padding:20px 0px;
+}
+
+footer nav ul{
+	display: inline-block; 
+	margin: 0px;
+	padding:0px;
+}
+
+footer nav ul li{	
+	list-style:none;	
+}
+
+footer nav ul li a{	
+	color: #b7c2d9;
+	font-family: Georgia;
+	font-size: 11px;
+	padding: 5px 15px 5px;
+	text-align: center;
+	text-decoration: none;   
+}
+
+footer nav ul li a:hover{	
+	color: white;	
+}
+
+.navFooter{	
+	width: 160px;
+	float: left;
+}
+
+.navFooter span{
+	display: block;
+    font-style: italic;
+    font-weight: bold;	
+	font-size:17px;
+	text-shadow: 0.1em 0.1em gray
 }
