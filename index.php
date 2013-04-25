@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<title>IT SURESTE</title>
 		<link rel="stylesheet" href="css/estilo.css" />
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -14,13 +16,36 @@
 					</a>
 					<!--<figcaption>Aqui va el slogan</figcaption>-->
 				</figure>				
-				<nav>				
+				<nav id="navigation">				
 					<ul>
-						<li><a href="index.php">Inicio</a></li>
-						<li><a href="quien.php">Quienes Somos</a></li>
-						<li><a href="#">Servicios</a></li>
-						<li><a href="#">Contactanos</a></li>						
-					</ul>
+						<li>
+							<a id="idIndex" href="index.php">Inicio</a>
+						</li>
+						<li>
+							<a id="idServicio" class="navShow">Servicios</a>
+							<div class="navChildren">
+								<div class="navChildrenNext">
+									Servicios
+								</div>
+							</div>
+						</li>
+						<li>
+							<a id="idNosotros" class="navShow">Nosotros</a>
+							<div class="navChildren">
+								<div class="navChildrenNext">
+									Nosotros
+								</div>
+							</div>
+						</li>
+						<li>
+							<a id="idContacto" class="navShow">Contactanos</a>
+							<div class="navChildren">								
+								<div class="navChildrenNext">
+									Contactanos
+								</div>
+							</div>
+						</li>
+					</ul>					
 				</nav>
 				<div class="clean"></div>
 			</header>
