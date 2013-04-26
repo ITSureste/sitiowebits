@@ -1,7 +1,8 @@
 body{
+	
 	margin:0px;
 	padding:0px;
-	background-color:000033; 
+	background-color:ffffff; 
 }
 
 #container{
@@ -69,24 +70,26 @@ header nav ul li a:hover{
 	border-radius:25px 0px 25px 0px;
 }
 
-section, aside{ margin-top:15px}
-section, aside { margin-left:25px}
+section, aside {margin-top:15px}
+section, aside {margin-left:25px}
 footer, aside {margin-left:25px}
 footer, aside {margin-right:25px}
 aside, aside {margin-right:25px}
+aside, aside {margin-top:15px}
 
 
 section{
-	background-color: #304c7b;
+	background-color:#304c7b;
 	min-width: 600px;
 	width: 600px;	
-	height: 400px;
-	border-radius:30px;
+	height: 600px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
 	position: relative;
 	float:left;
 	display:inline-block;
 	margin-bottom:10px;
-	border:2px solid blue;
+	border:1px solid blue;
 }
 
 section span{
@@ -94,21 +97,22 @@ section span{
 	padding:6px;
 	font-weight:bold;
 	font-size: 30px;
-	color: #EEE;
-	text-shadow: 0px 0px 7px #FFF;
+	color: #000000;
+	text-shadow: 0px 0px 7px #000000;
 }
-
+		
 aside{
-	background-color: #304c7b;
+	background-color:#304c7b;
 	min-width:310px;
 	width: 310px;
-	height: 200px;
-	border-radius:30px;
+	height: 600px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
 	position:relative;
 	float:right;
 	display:inline-block;
 	margin-bottom:25px;
-	border:2px solid blue;
+	border:1px solid blue;
 }
 
 aside span{
@@ -116,13 +120,55 @@ aside span{
 	padding:6px;
 	font-weight:bold;
 	font-size: 30px;
-	color: #EEE;
-	text-shadow: 0px 0px 7px #FFF;
+	color: #000000;
+	text-shadow: 0px 0px 7px #000000;
 }
-
 
 footer{	
 	clear:both;
-	border:2px solid blue;
-	background-color: #304c7b;
+	background: #304c7b;	
+	border-radius: 0px 0px 20px 20px;
+}
+
+footer nav{	
+	background: #304c7b;		
+	margin:auto;
+	width:480;
+	padding:20px 0px;
+}
+
+footer nav ul{
+	display: inline-block; 
+	margin: 0px;
+	padding:0px;
+}
+
+footer nav ul li{	
+	list-style:none;	
+}
+
+footer nav ul li a{	
+	color: #b7c2d9;
+	font-family: Georgia;
+	font-size: 11px;
+	padding: 5px 15px 5px;
+	text-align: center;
+	text-decoration: none;   
+}
+
+footer nav ul li a:hover{	
+	color: white;	
+}
+
+.navFooter{	
+	width: 160px;
+	float: left;
+}
+
+.navFooter span{
+	display: block;
+    font-style: italic;
+    font-weight: bold;	
+	font-size:17px;
+	text-shadow: 0.1em 0.1em gray
 }
