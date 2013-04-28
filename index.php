@@ -3,56 +3,33 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>IT SURESTE</title>
-		<link rel="stylesheet" href="css/estilo.css" />
-		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-		<script type="text/javascript" src="js/functions.js"></script>
+
+<?php include "files.php" ?>
+
 	</head>
 	<body>
 		<div id="container">
-			<header>
-				<figure>
-					<a href="index.php">
-						<img src="img/logo.png" />
-					</a>
-					<!--<figcaption>Aqui va el slogan</figcaption>-->
-				</figure>				
-				<nav id="navigation">				
-					<ul>
-						<li>
-							<a id="idIndex" href="index.php">Inicio</a>
-						</li>
-						<li>
-							<a id="idServicio" class="navShow">Servicios</a>
-							<div class="navChildren">
-								<div class="navChildrenNext">
-									Servicios
-								</div>
-							</div>
-						</li>
-						<li>
-							<a id="idNosotros" class="navShow">Nosotros</a>
-							<div class="navChildren">
-								<div class="navChildrenNext">
-									Nosotros
-								</div>
-							</div>
-						</li>
-						<li>
-							<a id="idContacto" class="navShow">Contactanos</a>
-							<div class="navChildren">								
-								<div class="navChildrenNext">
-									Contactanos
-								</div>
-							</div>
-						</li>
-					</ul>					
-				</nav>
-				<div class="clean"></div>
-			</header>
+			
+<?php include "header.php"?>
 			
 			<section>
 				<span>Hello section</span>
 				<article id="art1">
+					<h1>Lorem Ipsum</h1>
+					<h2>Lorem Ipsum</h2>
+					<h3>Lorem Ipsum</h3>
+					<h4>Lorem Ipsum</h4>
+					<p>Lorem Ipsum</p>
+					<ul>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<ol>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ol>
 					<p style="padding:10px;">					
 						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
 						Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
@@ -92,42 +69,8 @@
 				</p>
 			</aside>
 			
-			<footer>
-				<nav>
-					
-					<div class="navFooter">
-						<span>Contactos</span>
-						<ul>
-							<li><a href="#">Mapa del Sitio</a></li>
-							<li><a href="#">Que onda</a></li>
-							<li><a href="#">Ciudades</a></li>
-							<li><a href="#">Paises</a></li>
-						</ul>
-					</div>
-					
-					<div class="navFooter">
-						<span>Servicios</span>
-						<ul>
-							<li><a href="#">Mapa del Sitio</a></li>
-							<li><a href="#">Que onda</a></li>
-							<li><a href="#">Ciudades</a></li>
-							<li><a href="#">Paises</a></li>
-						</ul>
-					</div>
-					
-					<div class="navFooter">
-						<span>Oficinas</span>
-						<ul>
-							<li><a href="#">Mapa del Sitio</a></li>
-							<li><a href="#">Que onda</a></li>
-							<li><a href="#">Ciudades</a></li>
-							<li><a href="#">Paises</a></li>
-						</ul>
-					</div>
-					
-					<div class="clean"></div>
-				</nav>
-			</footer>
+<?php include "footer.php" ?>
+
 		</div>
 	</body>
 </html>
