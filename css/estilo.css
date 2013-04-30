@@ -146,38 +146,6 @@ header nav ul li a:hover{
 
 section, aside{ margin-top:15px;}
 
-section{
-	min-width: 600px;
-	width: 600px;	
-	position:relative;
-	float:left;
-	display:inline-block;
-	margin-bottom:10px;
-	border:1px solid blue;
-}
-
-section span{
-	display:block;
-	padding:6px;
-	font-weight:bold;
-}
-
-section article{
-	margin:5px auto;
-	min-width:550px;
-	width: 550px;
-	border:1px solid gray;
-}
-
-aside{
-	min-width:380px;
-	width: 380px;
-	position:relative;
-	float:right;
-	display:inline-block;
-	margin-bottom:10px;
-	border:1px solid pink;
-}
 
 footer{	
 	clear:both;
