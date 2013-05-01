@@ -4,7 +4,7 @@ body{
 }
 
 body, button, input, label, select, td, textarea {	
-	font-size: 11px;
+	font-size: 13px;
 	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
 }
 
@@ -35,7 +35,7 @@ h4{
 }
 
 p, li{
-	font-size: 16px;
+	font-size: 13px;
 }
 
 p{
@@ -55,8 +55,26 @@ li{
 	margin: 0;
 }
 
-#container{
-	margin:auto;			
+#contenedor{
+	margin:auto;	
+	min-width: 1000px;
+	width: 1000px;	
+}
+
+#contenedor .efecto {	
+    display: inline-block;
+    margin-top: 128px;
+	height:20px;
+    width: 100%;
+	position:fixed;
+	background:rgba(255,255,255,0.6);
+	z-index:5;	
+	left:0;
+}
+
+#contenedor #contenedorDatos {
+	margin-top:143px;
+	position:absolute;
 	min-width: 1000px;
 	width: 1000px;	
 }
@@ -66,7 +84,10 @@ li{
 }
 
 header {
-	margin-top: 25px;	
+	padding-top: 10px;	
+	position: fixed;
+	background:white;
+	z-index:15;
 }
 
 header figure{
@@ -135,7 +156,7 @@ header nav ul li a:hover{
 
 .navChildren{
 	position:absolute;
-	background:rgba(183,194,217,0.6);/*#b7c2d9;*/
+	background:rgba(183,194,217,0.8);/*#b7c2d9;*/
 	width:100%;
 	left:0px;
 	height:220px;
@@ -146,6 +167,38 @@ header nav ul li a:hover{
 
 section, aside{ margin-top:15px;}
 
+section{
+	min-width: 600px;
+	width: 600px;	
+	position:relative;
+	float:left;
+	display:inline-block;
+	margin-bottom:10px;
+	/*border:1px solid blue;*/
+}
+
+section span{
+	display:block;
+	padding:6px;
+	font-weight:bold;
+}
+
+section article{
+	margin:5px auto;
+	min-width:550px;
+	width: 550px;
+	border:1px solid gray;
+}
+
+aside{
+	min-width:250px;
+	width: 250;
+	position:relative;
+	float:right;
+	display:inline-block;
+	margin-bottom:10px;
+	border:1px solid pink;
+}
 
 footer{	
 	clear:both;
