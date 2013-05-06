@@ -7,7 +7,7 @@
 <?php include "files.php" ?>
 
 	</head>
-	<body>
+	<body id="mapa-del-sitio">
 		<div id="container">
 			
 <?php include "header.php"?>
