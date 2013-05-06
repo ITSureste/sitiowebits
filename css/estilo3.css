@@ -42,11 +42,6 @@ body {
 	overflow-x:hidden;
 }
 
-body {
-	width: 800px;
-	margin: 0 auto;
-	color:#777;
-}
 h1, h2 {
 	text-align:center;
 	margin-top:0;
@@ -149,31 +144,7 @@ a:focus {
 	-ms-transform: rotate(4deg);
 	-o-transform: rotate(4deg);
 }
-#slideshow .commands {
-	position: absolute;
-	top: 45%;
-	padding: 5px 13px;
-	border-bottom:0;
-	font-family: 'Amaranth', Arial, Verdana, sans-serif;
-	font-size: 1.3em;
-	color: #aaa;
-	text-decoration:none;
-	background-color: #eee;
-	background-image: -webkit-linear-gradient(#fff,#ddd);
-	background-image: -moz-linear-gradient(#fff,#ddd);
-	background-image: -ms-linear-gradient(#fff,#ddd);
-	background-image: -o-linear-gradient(#fff,#ddd);
-	background-image: linear-gradient(#fff,#ddd);
-	text-shadow: 0 0 1px #aaa;
-	
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	
-	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-}
+
 #slideshow .commands:after {
 	position: absolute;
 	bottom: 65px; left:-18px;
