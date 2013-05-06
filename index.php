@@ -13,7 +13,7 @@
 
 	</head>
 
-	<body>
+	<body id="inicio">
 		<?php include "header.php"?>
 
 		<div id="contenedor">
