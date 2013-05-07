@@ -7,7 +7,7 @@
 <?php include "files.php" ?>
 
 	</head>
-	<body id="nosotros">
+	<body>
 		<div id="container">
 			
 <?php include "header.php"?>
