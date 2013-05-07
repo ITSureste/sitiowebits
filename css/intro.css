@@ -1,0 +1,133 @@
+		/* campo activo de la pagina */
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+		/* estilo de imagen izquierda */
+
+.leftdoor {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: url(/img/leftdoor.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+		/* estilo de imagen derecha */
+
+.rightdoor {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: url(/img/rightdoor.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	left: 50%;
+}
+
+		/* transición izquierda */
+.moveleft {
+	-webkit-transition-property: left;
+	-webkit-transition-duration:2s;
+	-webkit-transition-timing-function:ease;
+	-webkit-transition-delay: 2s;
+	-moz-transition-property: left;
+	-moz-transition-duration:2s;
+	-moz-transition-timing-function:ease;
+	-moz-transition-delay: 2s;
+	-ms-transition-property: left;
+	-ms-transition-duration:2s;
+	-ms-transition-timing-function:ease;
+	-ms-transition-delay: 2s;
+	-o-transition-property: left;
+	-o-transition-duration:2s;
+	-o-transition-timing-function:ease;
+	-o-transition-delay: 2s;
+	left: -50%;
+}
+		/* transición derecha */
+
+.moveright {
+	-webkit-transition-property: left;
+	-webkit-transition-duration:2s;
+	-webkit-transition-timing-function:ease;
+	-webkit-transition-delay: 2s;
+	-moz-transition-property: left;
+	-moz-transition-duration:2s;
+	-moz-transition-timing-function:ease;
+	-moz-transition-delay: 2s;
+	-ms-transition-property: left;
+	-ms-transition-duration:2s;
+	-ms-transition-timing-function:ease;
+	-ms-transition-delay: 2s;
+	-o-transition-property: left;
+	-o-transition-duration:2s;
+	-o-transition-timing-function:ease;
+	-o-transition-delay: 2s;
+	left: 100%;
+}
+		/* estilo del boton entrar */
+.button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -30px;
+	width: 60px;
+	height: 60px;
+	background: gold;
+	border-radius: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+		/* tipografia y color del buton entrar */
+
+.button span {
+	display: block;
+	margin: 19px 0;
+	color: white;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+		/* efecto de rotacion del boton entrar */
+
+.rotate {
+	-webkit-transition-property: rotate;
+	-webkit-transition-duration:2s;
+	-webkit-transition-timing-function:ease;
+	-webkit-transform:rotate(180deg);
+	-moz-transition-property: rotate;
+	-moz-transition-duration:2s;
+	-moz-transition-timing-function:ease;
+	-moz-transform:rotate(180deg);
+	-ms-transition-property: rotate;
+	-ms-transition-duration:2s;
+	-ms-transition-timing-function:ease;
+	-ms-transform:rotate(180deg);
+}
+		/* muestra pantalla */
+
+.del {
+	display: none;
+}
+		/* pantalla posterir a la transición */
+
+.content {
+	position: absolute;
+	z-index: -10;
+}

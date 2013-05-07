@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Bienvenido a ITSureste</title>
-		<link rel="stylesheet" href="css/estilo2.css">
+		<link rel="stylesheet" href="css/intro.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	</head>
 	<body>
