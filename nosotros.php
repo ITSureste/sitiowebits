@@ -7,13 +7,16 @@
 <?php include "files.php" ?>
 
 	</head>
+
 	<body>
-		<div id="container">
-			
-<?php include "header.php"?>
-			
+	<?php include "header.php"?>
+		
 			<section>
-				<img src="img/mi.png" width="1000px"/>
+				<img src="img/mis.png" width="800px"height="310px"/>												
+			</section>
+
+			<section>
+				<img src="img/vis.png" width="800px"height="310px"/>					
 			</section>
 
 <?php include "footer.php" ?>
