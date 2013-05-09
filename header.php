@@ -8,31 +8,16 @@
 	<nav id="navigation">				
 		<ul>
 			<li>
-				<a id="idIndex" href="index.php">Inicio</a>
+				<a id="idIndex" href="index.php" class="navShow navShowActive">Inicio</a>
 			</li>
 			<li>
-				<a id="idServicio" class="navShow">Servicios</a>
-				<div class="navChildren">
-					<div class="navChildrenNext">
-						Servicios
-					</div>
-				</div>
+				<a id="idServicio" class="navShow">Servicios</a>				
 			</li>
 			<li>
-				<a id="idNosotros" class="navShow">Nosotros</a>
-				<div class="navChildren">
-					<div class="navChildrenNext">
-						Nosotros
-					</div>
-				</div>
+				<a id="idNosotros" class="navShow">Nosotros</a>				
 			</li>
 			<li>
-				<a id="idContacto" class="navShow">Contactanos</a>
-				<div class="navChildren">								
-					<div class="navChildrenNext">
-						Contactanos
-					</div>
-				</div>
+				<a id="idContacto" class="navShow">Otros</a>			
 			</li>
 		</ul>					
 	</nav>

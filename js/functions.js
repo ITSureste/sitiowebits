@@ -5,18 +5,24 @@ $(document).ready(function(){
 		var id = $(this).attr("id");
 		
 		$("#"+id).click(function(){						
-			
-			$(".navChildren").hide("fast");						
+										
 			$(".navShow").removeClass('navShowActive');
-			
-			$(this).next().slideDown(1000);
+						
 			$(this).addClass('navShowActive');
 			
-			$("nav").mouseleave(function(){
-				$(".navChildren").hide("fast");	
-				$(".navShow").removeClass('navShowActive');
-			});
+			//$("nav").mouseleave(function(){
+			//	$(".navChildren").hide("fast");	
+			//	$(".navShow").removeClass('navShowActive');
+			//});
 		});								
-	});							
+	});	
+	
+	$("#redSocFacebook").click(function(){		
+		$("#asideFacebook").slideToggle('slow');
+	});
+	
+	$("#redSocTwitter").click(function(){
+		$("#asideTwitter").slideToggle('slow');
+	});
 	
 });	

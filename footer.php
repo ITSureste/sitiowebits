@@ -33,5 +33,10 @@
 		
 		<div class="clean"></div>
 	</nav>
+	<div id="redesSociales">
+		<a id="redSocFacebook"><span>FACEBOOK</span></a>
+		<a id="redSocTwitter"><span>TWITTER</span></a>
+		<a id="redSocGoogle"><span>GOOGLE</span></a>
+	</div>
 </footer>
 		
