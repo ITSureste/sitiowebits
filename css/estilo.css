@@ -1,13 +1,10 @@
 body{
-	margin:0px;
-	padding:0px;
-	background:#a1b1d3;
-	color:#1a2742;
+	
 }
 
 body, button, input, label, select, td, textarea {	
-	font-size: 13px;
-	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+	/*font-size: 13px;
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;/**/
 }
 
 h1{
@@ -58,9 +55,9 @@ li{
 }
 
 #contenedor{
-	margin:auto;	
+	/*margin:auto;	
 	max-width: 1000px;
-	width: 1000px;	
+	width: 1000px;/**/
 }
 
 .clean{
@@ -89,10 +86,12 @@ header nav{
 	float: left;	
 	border-radius: 25px 25px 0px 0px;
 	padding: 0px 40px 0px 40px;
-	width: 649px;
+	/*width: 649px;*/
+	width: auto;
 	position: relative;
 	bottom: -85px;
-	margin-left: 11px;
+	/*margin-left: 11px;*/
+	margin: 0 10px;
 	
 	
 	/*background-image: linear-gradient(bottom, #304C7B 36%, #304C7B 63%, #6B84AD 61%);
@@ -129,7 +128,7 @@ header nav ul li a{
     display: inline-block;
     font-family: Georgia;
     font-size: 13px;
-    padding: 12px 15px 5px;
+    padding: 12px 14px 5px;
     text-align: center;
     text-decoration: none;
     width: 131px;	
@@ -143,9 +142,9 @@ header nav ul li a:hover{
 }
 
 .navShowActive{
-	background:rgba(255,255,255,0.3);
+	/*background:rgba(255,255,255,0.3);
 	color:white;
-	border-radius:25px 0px 25px 0px;	
+	border-radius:25px 0px 25px 0px;/**/
 }
 
 .navChildrenNext{
@@ -164,16 +163,16 @@ header nav ul li a:hover{
 	display:none;
 }
 
-section, aside{ margin-top:15px;}
+section, aside{ /*margin-top:15px;/**/ }
 
 section{
-	min-width: 730px;
+	/*min-width: 730px;
 	width: 730px;	
 	position:relative;
 	float:left;
 	display:inline-block;
 	margin-bottom:10px;
-	/*border:1px solid blue;*/
+	/*border:1px solid blue;/**/
 }
 
 section span{

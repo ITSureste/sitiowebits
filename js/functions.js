@@ -1,5 +1,6 @@
 $(document).ready(function(){
-					
+	
+	/*
 	$(".navShow").each(function(){					
 		
 		var id = $(this).attr("id");
@@ -16,6 +17,7 @@ $(document).ready(function(){
 			//});
 		});								
 	});	
+	*/
 	
 	$("#redSocFacebook").click(function(){		
 		$("#asideFacebook").slideToggle('slow');

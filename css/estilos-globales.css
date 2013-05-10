@@ -1,0 +1,61 @@
+html, body {
+	height: 100%;
+}
+
+html{
+
+}
+
+body{
+	background: #a1b1d3;
+	margin: 0;
+	padding: 0;
+	color:#1a2742;
+}
+
+section{
+	
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+p{
+
+}
+
+ul{
+
+}
+
+ol{
+
+}
+
+li{
+
+}
+
+a{
+
+}
+
+#contenedor{
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 320px;
+	width: 100%;
+}

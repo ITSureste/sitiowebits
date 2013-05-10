@@ -14,6 +14,7 @@
 		</header>
 
 		<section id="informacion-principal">
+			<h2>Nosotros</h2>
 		</section>
 
 		<footer>

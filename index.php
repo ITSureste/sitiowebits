@@ -17,10 +17,11 @@
 		</section>
 
 		<section id="informacion-principal">
+			<h2>Bienvenidos a ITSureste</h2>
 		</section>
 
 		<section id="redes-sociales">
-			<? //include_once "redesSociales.php" ?>
+			<? //include_once "redes-sociales.php" ?>
 		</section>
 
 		<footer>

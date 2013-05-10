@@ -1,0 +1,24 @@
+#menu-principal{
+}
+
+#menu-principal a:hover,
+#inicio a.inicio,
+#servicios a.servicios,
+#nosotros a.nosotros,
+#contactanos a.contactanos{
+	background:rgba(255,255,255,0.3);
+	border-radius:25px 0px 25px 0px;
+	color:white;
+}
+
+#desplazamiento-de-imagenes{
+	min-height: 100px;
+}
+
+#informacion-principal{
+	min-height: 100px;
+}
+
+#redes-sociales{
+	min-height: 100px;
+}
