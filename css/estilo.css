@@ -57,7 +57,7 @@ li{
 
 #contenedor{
 	margin:auto;	
-	min-width: 1000px;
+	max-width: 1000px;
 	width: 1000px;	
 }
 
@@ -316,10 +316,23 @@ background: url('../img/icon-footer-google.png') no-repeat;
 }
 /*********Termina redes sociales***********/
 
+/**********Inicia contacto***********/
 
+#contacto{
+	margin:auto;	
+	max-width: 1000px;
+	width: 1000px;	
+	background:rgba(0,0,0,0.8);
+		
+	border:1px solid red;	
+}
 
+#contacto form{
+	width:500px;
+	margin:25px auto;
+	
+	
+	border:1px solid blue;
+}
 
-/***/
-
-
-/**/
+/**********Termina contacto***********/

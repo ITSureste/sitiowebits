@@ -9,7 +9,11 @@
 
 <body id="inicio">
 	
-		
+	<div id="contacto">
+		<form>
+			sdsd
+		</form>		
+	</div>
 	<div id="contenedor">		
 	<? include_once "header.php"?>
 	 <!----- inicia contenido de Home ----->
