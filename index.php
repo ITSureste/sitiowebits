@@ -22,10 +22,9 @@
 			<h2>Bienvenidos a ITSureste</h2>
 		</section>
 
-		<section id="redes-sociales">
-			<? //include_once "redes-sociales.php" ?>
-		</section>
-
+		
+		<? include_once "redes-sociales.php" ?>
+		
 		<footer>
 			<? include_once "archivos-globales/pie.php" ?>
 		</footer>
