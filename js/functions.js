@@ -17,17 +17,19 @@ $(document).ready(function(){
 		});								
 	});	
 	
-	$("#redSocFacebook").click(function(){		
+	$("#redSocFacebook").click(function(){ // RedSocial-> FaceBook
 		$("#asideFacebook").slideToggle('slow');
 	});
 	
-	$("#redSocTwitter").click(function(){
+	$("#redSocTwitter").click(function(){  // RedSocial-> Twitter
 		$("#asideTwitter").slideToggle('slow');
 	});
 	
-	
-	$("#contacto span").click(function(){
+	$("#redSocGoogle").click(function(){  // RedSocial-> Google
+		$("#asideGoogle").slideToggle('slow');
+	});
 		
+	$("#contacto span").click(function(){ // CONTACTANOS	
 		$("#contacto form").slideToggle('slow');
 		$(this).toggleClass("contactoOut");		
 	});

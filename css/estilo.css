@@ -271,7 +271,7 @@ footer nav ul li a:hover{
 #mostrarRedesSociales a{
 	display: inline-block;
 	width: 100px;
-	height: 105px;
+	height: 90px;
 	cursor: pointer;
 	opacity: 0.5;
 	z-index: 1;
@@ -295,7 +295,8 @@ footer nav ul li a:hover{
 	position: relative;
 	top: -40;
 	left: 60px;	
-	max-width:300px !important;
+	max-width:260px !important;
+	display:none;
 }
 
 #mostrarRedesSociales #redSocFacebook
