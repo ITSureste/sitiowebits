@@ -1,10 +1,11 @@
 body{
-	
+	margin:0px;
+	padding:0px;
 }
 
 body, button, input, label, select, td, textarea {	
-	/*font-size: 13px;
-	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;/**/
+	font-size: 13px;
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
 }
 
 h1{
@@ -55,9 +56,9 @@ li{
 }
 
 #contenedor{
-	/*margin:auto;	
+	margin:auto;	
 	max-width: 1000px;
-	width: 1000px;/**/
+	width: 1000px;	
 }
 
 .clean{
@@ -86,12 +87,10 @@ header nav{
 	float: left;	
 	border-radius: 25px 25px 0px 0px;
 	padding: 0px 40px 0px 40px;
-	/*width: 649px;*/
-	width: auto;
+	width: 649px;
 	position: relative;
-	bottom: -85px;
-	/*margin-left: 11px;*/
-	margin: 0 10px;
+	bottom: -58px;
+	margin-left: 11px;
 	
 	
 	/*background-image: linear-gradient(bottom, #304C7B 36%, #304C7B 63%, #6B84AD 61%);
@@ -109,7 +108,7 @@ header nav{
 		color-stop(0.61, #6B84AD)
 	);*/
 	
-	background:#304C7B;
+	background:#273F65;
 }
 
 header nav ul{
@@ -128,7 +127,7 @@ header nav ul li a{
     display: inline-block;
     font-family: Georgia;
     font-size: 13px;
-    padding: 12px 14px 5px;
+    padding: 12px 15px 5px;
     text-align: center;
     text-decoration: none;
     width: 131px;	
@@ -142,9 +141,9 @@ header nav ul li a:hover{
 }
 
 .navShowActive{
-	/*background:rgba(255,255,255,0.3);
+	background:rgba(255,255,255,0.3);
 	color:white;
-	border-radius:25px 0px 25px 0px;/**/
+	border-radius:25px 0px 25px 0px;	
 }
 
 .navChildrenNext{
@@ -163,16 +162,16 @@ header nav ul li a:hover{
 	display:none;
 }
 
-section, aside{ /*margin-top:15px;/**/ }
+section, aside{ margin-top:15px;}
 
 section{
-	/*min-width: 730px;
+	min-width: 730px;
 	width: 730px;	
 	position:relative;
 	float:left;
 	display:inline-block;
 	margin-bottom:10px;
-	/*border:1px solid blue;/**/
+	/*border:1px solid blue;*/
 }
 
 section span{
@@ -226,7 +225,7 @@ footer{
 		color-stop(0.29, #304C7B)
 	);*/
 
-	background:#304C7B;	
+	background:#273F65;	
 }
 
 footer nav{			
@@ -320,20 +319,42 @@ background: url('../img/icon-footer-google.png') no-repeat;
 /**********Inicia contacto***********/
 
 #contacto{
+	padding:1px;	
 	margin:auto;	
 	max-width: 1000px;
 	width: 1000px;	
-	background:rgba(0,0,0,0.8);
+	background:#273F65;
+	color:white;
+	border-radius: 0px 0px 0px 10px;
 		
-	border:1px solid red;	
 }
 
 #contacto form{
 	width:500px;
 	margin:25px auto;
-	
-	
+	display:none;
 	border:1px solid blue;
+}
+
+#contacto span{
+	display: inline-block;
+	width: 135px;
+	height: 29px;
+	text-align: right;
+	position: relative;
+	float: right;
+	background: url('../img/contacto_in.png') no-repeat rgba(39,63,111,0.9);
+	right: 0px;
+	border-radius: 0px 0px 10px 10px;
+	top: 1px;
+	font-weight: bold;
+	padding-top: 9px;
+	padding-right: 5px;	
+	cursor:pointer;
+}
+
+.contactoOut{
+	background: url('../img/contacto_out.png') no-repeat rgba(39,63,111,0.9) !important;
 }
 
 /**********Termina contacto***********/

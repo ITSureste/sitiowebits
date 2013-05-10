@@ -1,6 +1,5 @@
 $(document).ready(function(){
-	
-	/*
+					
 	$(".navShow").each(function(){					
 		
 		var id = $(this).attr("id");
@@ -17,7 +16,6 @@ $(document).ready(function(){
 			//});
 		});								
 	});	
-	*/
 	
 	$("#redSocFacebook").click(function(){		
 		$("#asideFacebook").slideToggle('slow');
@@ -25,6 +23,13 @@ $(document).ready(function(){
 	
 	$("#redSocTwitter").click(function(){
 		$("#asideTwitter").slideToggle('slow');
+	});
+	
+	
+	$("#contacto span").click(function(){
+		
+		$("#contacto form").slideToggle('slow');
+		$(this).toggleClass("contactoOut");		
 	});
 	
 	

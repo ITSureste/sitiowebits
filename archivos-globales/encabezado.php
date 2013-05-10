@@ -1,25 +1,24 @@
 <figure>
 	<a href="index.php">
-		<img src="img/logo.png" alt="Innovaciones Tecnologicas del Sureste" />
+		<img src="img/logo.png" />
 	</a>
 	<!--<figcaption>Aqui va el slogan</figcaption>-->
-</figure>
-
-<nav id="menu-principal">
+</figure>				
+<nav id="navigation">				
 	<ul>
 		<li>
-			<a id="idIndex" class="inicio" href="index.php" class="navShow">Inicio</a>
+			<a id="idIndex" href="index.php" class="navShow navShowActive">Inicio</a>
 		</li>
 		<li>
-			<a id="idServicio" class="servicios" href="servicios.php" class="navShow">Servicios</a>
+			<a id="idServicio" class="navShow" href="servicios.php">Servicios</a>				
 		</li>
 		<li>
-			<a id="idNosotros" class="nosotros" href="nosotros.php" class="navShow">Nosotros</a>
+			<a id="idNosotros" class="navShow" href="nosotros.php">Nosotros</a>				
 		</li>
 		<li>
-			<a id="idContacto" class="contactanos" href="contactanos.php" class="navShow">Contactanos</a>
+			<a id="idContacto" class="navShow">Otros</a>			
 		</li>
-	</ul>
+	</ul>					
 </nav>
 
 <div class="clean"></div>
