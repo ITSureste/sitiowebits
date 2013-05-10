@@ -59,7 +59,7 @@ li{
 
 #contenedor{
 	margin:auto;	
-	min-width: 1000px;
+	max-width: 1000px;
 	width: 1000px;	
 }
 
@@ -85,7 +85,7 @@ header figure img{
 
 header nav{
 	display: inline-block;
-	background: #304c7b;
+	/*background: #304c7b;*/
 	float: left;	
 	border-radius: 25px 25px 0px 0px;
 	padding: 0px 40px 0px 40px;
@@ -93,6 +93,24 @@ header nav{
 	position: relative;
 	bottom: -85px;
 	margin-left: 11px;
+	
+	
+	/*background-image: linear-gradient(bottom, #304C7B 36%, #304C7B 63%, #6B84AD 61%);
+	background-image: -o-linear-gradient(bottom, #304C7B 36%, #304C7B 63%, #6B84AD 61%);
+	background-image: -moz-linear-gradient(bottom, #304C7B 36%, #304C7B 63%, #6B84AD 61%);
+	background-image: -webkit-linear-gradient(bottom, #304C7B 36%, #304C7B 63%, #6B84AD 61%);
+	background-image: -ms-linear-gradient(bottom, #304C7B 36%, #304C7B 63%, #6B84AD 61%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.36, #304C7B),
+		color-stop(0.63, #304C7B),
+		color-stop(0.61, #6B84AD)
+	);*/
+	
+	background:#304C7B;
 }
 
 header nav ul{
@@ -172,7 +190,7 @@ section article{
 }
 
 #contenedor > aside{
-	min-width:250px;
+	max-width:250px;
 	width: 250;
 	position:relative;
 	float:right;
@@ -192,13 +210,27 @@ section article{
 }
 
 footer{	
-	clear:both;
-	background: #304c7b;	
-	border-radius: 0px 0px 20px 20px;	
+	clear:both;	
+	border-radius: 0px 0px 20px 20px;
+	
+	/*background-image: linear-gradient(left bottom, #767EDE 0%, #304C7B 29%);
+	background-image: -o-linear-gradient(left bottom, #767EDE 0%, #304C7B 29%);
+	background-image: -moz-linear-gradient(left bottom, #767EDE 0%, #304C7B 29%);
+	background-image: -webkit-linear-gradient(left bottom, #767EDE 0%, #304C7B 29%);
+	background-image: -ms-linear-gradient(left bottom, #767EDE 0%, #304C7B 29%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		right top,
+		color-stop(0, #767EDE),
+		color-stop(0.29, #304C7B)
+	);*/
+
+	background:#304C7B;	
 }
 
-footer nav{	
-	background: #304c7b;		
+footer nav{			
 	margin:auto;
 	width:480px;
 	padding:20px 0px;
@@ -285,3 +317,24 @@ footer #redesSociales #redSocGoogle
 background: url('../img/icon-footer-google.png') no-repeat;
 }
 /*********Termina redes sociales***********/
+
+/**********Inicia contacto***********/
+
+#contacto{
+	margin:auto;	
+	max-width: 1000px;
+	width: 1000px;	
+	background:rgba(0,0,0,0.8);
+		
+	border:1px solid red;	
+}
+
+#contacto form{
+	width:500px;
+	margin:25px auto;
+	
+	
+	border:1px solid blue;
+}
+
+/**********Termina contacto***********/
