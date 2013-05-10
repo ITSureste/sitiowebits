@@ -1,26 +1,25 @@
 ﻿<!DOCTYPE hmtl>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>IT SURESTE</title>
 
-<?php include "files.php" ?>
+<head>
+	<meta charset="UTF-8">
+	<title>IT SURESTE</title>
+	<? include_once "archivos-globales/archivos.php" ?>
+</head>
 
-	</head>
+<body id="nosotros">
+	<div id="contenedor">
+		<header>
+			<? include_once "archivos-globales/encabezado.php" ?>
+		</header>
 
-	<body>
-	<?php include "header.php"?>
-		
-			<section>
-				<img src="img/mis.png" width="800px"height="310px"/>												
-			</section>
+		<section id="informacion-principal">
+		</section>
 
-			<section>
-				<img src="img/vis.png" width="800px"height="310px"/>					
-			</section>
+		<footer>
+			<? include_once "archivos-globales/pie.php" ?>
+		</footer>
+	</div>
+</body>
 
-<?php include "footer.php" ?>
-
-		</div>
-	</body>
 </html>

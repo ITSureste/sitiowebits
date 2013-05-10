@@ -1,6 +1,8 @@
 body{
 	margin:0px;
 	padding:0px;
+	background:#a1b1d3;
+	color:#1a2742;
 }
 
 body, button, input, label, select, td, textarea {	
