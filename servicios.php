@@ -8,6 +8,8 @@
 </head>
 
 <body id="servicios">
+	<? include_once "contactanos.php"?>
+	
 	<div id="contenedor">
 		<header>
 			<? include_once "archivos-globales/encabezado.php" ?>
@@ -17,6 +19,8 @@
 			<h2>Servicios</h2>
 		</section>
 
+		<? include_once "redes-sociales.php" ?>
+		
 		<footer>
 			<? include_once "archivos-globales/pie.php" ?>
 		</footer>

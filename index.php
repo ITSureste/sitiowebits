@@ -21,7 +21,6 @@
 		<section id="informacion-principal">
 			<h2>Bienvenidos a ITSureste</h2>
 		</section>
-
 		
 		<? include_once "redes-sociales.php" ?>
 		
