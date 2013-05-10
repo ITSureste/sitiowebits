@@ -1,5 +1,9 @@
 <div id="mostrarRedesSociales">
-	<!----- inicia widget de facebook ----->			
+	<!----- inicia widget de facebook ----->	
+	<a id="redSocFacebook"></a>
+	<a id="redSocTwitter"></a>
+	<a id="redSocGoogle"></a>
+	
 	<aside id="asideFacebook">
 		<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FInnovaciones-Tecnol%25C3%25B3gicas-del-Sureste%2F471016546305070%3Fref%3Dstream&amp;width=290&amp;height=290&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:290px;" allowTransparency="true">
 		</iframe>
