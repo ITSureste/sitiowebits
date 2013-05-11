@@ -23,7 +23,8 @@
 		</section>
 		
 		<? include_once "redes-sociales.php" ?>
-		
+
+		<? include_once "submenu.php" ?>
 		<footer>
 			<? include_once "archivos-globales/pie.php" ?>
 		</footer>

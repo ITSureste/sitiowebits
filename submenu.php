@@ -3,7 +3,8 @@
     <head>
 
         <link rel="stylesheet" type="text/css" href="css/subm.css" />
-        <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+      <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+        
 	
     </head>
 
@@ -21,7 +22,7 @@
                 <ul class="ca-menu">
                     <li>
                         <a href="#">
-                            <span class="ca-icon">A</span>
+                            <span class="ca-icon">a</span>
                             <div class="ca-content">
                                 <h2 class="ca-main">PEDRO</h2>
                                 <h3 class="ca-sub">carmelitas Town</h3>
@@ -65,7 +66,7 @@
                         </a>
                     </li>
                 </ul>
-            </div><!-- content -->
+            </div>
         </div>
     </body>
 </html>
