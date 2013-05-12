@@ -15,9 +15,12 @@
 			<? include_once "archivos-globales/encabezado.php" ?>
 		</header>
 
-		<section id="informacion-principal">
-			<h2>Nosotros</h2>
-		</section>
+		<figure>
+
+			<img src="img/mis.png" width="900px" height="320px" />
+			<img src="img/vis.png" width="900px" height="320px" />
+			
+		</figure>
 
 		<? include_once "archivos-individuales/redes-sociales.php" ?>
 		<footer>
