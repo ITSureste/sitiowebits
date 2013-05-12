@@ -180,6 +180,10 @@ section span{
 	font-weight:bold;/**/
 }
 
+#slideshow > a{
+	display: none !important;
+}
+
 section article{
 	margin:5px auto;
 	min-width:550px;
