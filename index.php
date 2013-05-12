@@ -25,7 +25,7 @@
 		
 		<? include_once "archivos-individuales/redes-sociales.php" ?>
 
-		<? include_once "archivos-individuales/submenu.php" ?>
+		<? include_once "archivos-individuales/submenu2.php" ?>
 		<footer>
 			<? include_once "archivos-globales/pie.php" ?>
 		</footer>
