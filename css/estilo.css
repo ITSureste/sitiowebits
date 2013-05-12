@@ -165,7 +165,7 @@ header nav ul li a:hover{
 section, aside{ margin-top:15px;}
 
 section{
-	min-width: 730px;
+	/*min-width: 730px;
 	width: 730px;	
 	position:relative;
 	float:left;
@@ -175,9 +175,9 @@ section{
 }
 
 section span{
-	display:block;
+	/*display:block;
 	padding:6px;
-	font-weight:bold;
+	font-weight:bold;/**/
 }
 
 section article{

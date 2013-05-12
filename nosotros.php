@@ -19,7 +19,7 @@
 			<h2>Nosotros</h2>
 		</section>
 
-		<? include_once "redes-sociales.php" ?>
+		<? include_once "archivos-individuales/redes-sociales.php" ?>
 		<footer>
 			<? include_once "archivos-globales/pie.php" ?>
 		</footer>
