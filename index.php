@@ -16,15 +16,16 @@
 		</header>
 
 		<section id="desplazamiento-de-imagenes">
+			<? include_once "archivos-individuales/desplazamiento-de-imagenes.php" ?>
 		</section>
 
 		<section id="informacion-principal">
 			<h2>Bienvenidos a ITSureste</h2>
 		</section>
 		
-		<? include_once "redes-sociales.php" ?>
+		<? include_once "archivos-individuales/redes-sociales.php" ?>
 
-		<? include_once "submenu.php" ?>
+		<? include_once "archivos-individuales/submenu2.php" ?>
 		<footer>
 			<? include_once "archivos-globales/pie.php" ?>
 		</footer>

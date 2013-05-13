@@ -7,20 +7,16 @@
 	<? include_once "archivos-globales/archivos.php" ?>
 </head>
 
-<body id="servicios">
-	<? include_once "contactanos.php"?>
-	
+<body id="mapa-del-sitio">
 	<div id="contenedor">
 		<header>
 			<? include_once "archivos-globales/encabezado.php" ?>
 		</header>
 
 		<section id="informacion-principal">
-			<h2>Servicios</h2>
+			<h2>Mapa del sitio</h2>
 		</section>
 
-		<? include_once "archivos-individuales/redes-sociales.php" ?>
-		
 		<footer>
 			<? include_once "archivos-globales/pie.php" ?>
 		</footer>
