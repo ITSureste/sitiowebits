@@ -473,3 +473,11 @@ button.submit:active {
 }
 
 /**********Termina contacto***********/
+
+#iconos-de-redes-social{
+}
+
+#iconos-de-redes-social li{
+	float: left;
+	margin: 0 4px;
+}

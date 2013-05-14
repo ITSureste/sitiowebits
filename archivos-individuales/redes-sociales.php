@@ -1,5 +1,5 @@
 <div id="mostrarRedesSociales">
-	<!----- inicia widget de facebook ----->			
+	<!-- inicia widget de facebook -->			
 	<aside>
 		<a id="redSocFacebook"></a>
 		<div id="asideFacebook">
@@ -7,9 +7,9 @@
 			</iframe>
 		</div>
 	</aside>	
-	<!----- fin del widget de facebook ----->
+	<!-- fin del widget de facebook -->
 
-	<!----- inicia widget de twitter ----->			
+	<!-- inicia widget de twitter -->			
 	<aside>
 		<a id="redSocTwitter"></a>
 		<div id="asideTwitter">
@@ -31,5 +31,5 @@
 			GOOGLE +
 		</div>
 	</aside>
-	<!----- fin del widget de twitter ----->
+	<!-- fin del widget de twitter -->
 </div>
