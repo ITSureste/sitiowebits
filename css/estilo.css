@@ -337,7 +337,7 @@ background: url('../img/icon-footer-google.png') no-repeat;
 }
 /*--- estilos para los ul y li del formulario ---*/
 .formulario_cnt ul {
-    width:750px;
+    /*width:750px;*/
     list-style-type:none;
 	margin:0px;
 	padding:0px;
