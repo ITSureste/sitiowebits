@@ -222,13 +222,16 @@ footer{
 	);*/
 
 	/*background:#273F65;*/
-	background:#f6f5f2
+	background:rgba(246,245,249,0.8);;
+	box-shadow:0px 5px 7px rgba(50,50,50,0.75);
+	margin-bottom:10px;
+	border:1px solid #fff;
 }
 
 footer nav{			
 	margin:auto;
 	width:480px;
-	padding:20px 0px;
+	padding:30px 0px;
 }
 
 footer nav ul{
@@ -253,7 +256,7 @@ footer nav ul li a{
 }
 
 footer nav ul li a:hover{	
-	color: white;	
+	text-decoration:underline;	
 }
 
 .navFooter{	
@@ -262,8 +265,7 @@ footer nav ul li a:hover{
 }
 
 .navFooter span{
-	display: block;
-    font-style: Calibri,Arial,sans-serif !important;
+	display: block;    
     font-weight: bold;	
 	font-size:14px;		
 	margin-bottom:3px;
