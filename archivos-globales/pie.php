@@ -4,23 +4,23 @@
 		<ul>
 			<li>
 				<img src="img/icon-facebook.png" />
-				<a href="#">Facebook</a>
+				<a target="_blank" href="https://www.facebook.com/innovaciones.tecnologicasdelsureste">Facebook</a>
 			</li>
 			<li>
 				<img src="img/icon-twitter.png" />
-				<a href="#">Twitter</a>
+				<a target="_blank" href="https://twitter.com/ITSureste">Twitter</a>
 			</li>
 			<li>
 				<img src="img/icon-youtube.png" />
-				<a href="#">Youtube</a>
+				<a target="_blank" href="#">Youtube</a>
 			</li>
 			<li>
 				<img src="img/icon-linkedin.png" />
-				<a href="#">LinkedIn</a>
+				<a target="_blank" href="#">LinkedIn</a>
 			</li>
 			<li>
 				<img src="img/icon-skype.png" />
-				<a href="#">Skype</a>
+				<a target="_blank" href="#">Skype</a>
 			</li>			
 		</ul>		
 	</div>
@@ -47,3 +47,6 @@
 	
 	<div class="clean"></div>
 </nav>
+<div id="copyright">
+	<p>© Copyright 2013 ItSureste. All rights reserved</p>
+</div>
