@@ -249,8 +249,7 @@ footer nav ul li a{
 /*	color: #b7c2d9;*/
 	color: #666;
 	font-family: Calibri,Arial,sans-serif;
-	font-size: 14px;
-	padding: 0px 15px 0px;
+	font-size: 13px;	
 	text-align: center;
 	text-decoration: none;   
 }
@@ -265,9 +264,8 @@ footer nav ul li a:hover{
 }
 
 .navFooter span{
-	display: block;    
-    font-weight: bold;	
-	font-size:14px;		
+	display: block;        
+	font-size:18px;		
 	margin-bottom:3px;
 	color: #666;	
 }

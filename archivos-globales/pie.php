@@ -1,6 +1,6 @@
 <nav>
 	<div class="navFooter">
-		<span>Siguenos</span>		
+		<span>SIGUENOS</span>		
 		<ul>
 			<li><a href="#">Mapa del Sitio</a></li>
 			<li><a href="#">Que onda</a></li>
@@ -10,7 +10,7 @@
 	</div>
 	
 	<div class="navFooter">
-		<span>Servicios</span>
+		<span>SERVICIOS</span>
 		<ul>
 			<li><a href="#">Mapa del Sitio</a></li>
 			<li><a href="#">Que onda</a></li>
@@ -20,7 +20,7 @@
 	</div>
 	
 	<div class="navFooter">
-		<span>Oficinas</span>
+		<span>OFICINA</span>
 		<ul>
 			<li><a href="#">Mapa del Sitio</a></li>
 			<li><a href="#">Que onda</a></li>
