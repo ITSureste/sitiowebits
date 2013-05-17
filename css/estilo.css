@@ -242,7 +242,11 @@ footer nav ul{
 
 footer nav ul li{	
 	list-style:none;	
-	margin-bottom: 1px;
+	margin-bottom: 5px;
+}
+
+footer nav ul li img{	
+	vertical-align: middle;
 }
 
 footer nav ul li a{	
