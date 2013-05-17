@@ -15,14 +15,10 @@
 			<? include_once "archivos-globales/encabezado.php" ?>
 		</header>
 
-		<figure>
-
-			<img src="img/mis.png" width="900px" height="320px" />
-			<img src="img/vis.png" width="900px" height="320px" />
+		<section>
+			<? include_once "archivos-individuales/noso.php" ?>
 			
-		</figure>
-
-		<? include_once "archivos-individuales/redes-sociales.php" ?>
+		</section>
 		<footer>
 			<? include_once "archivos-globales/pie.php" ?>
 		</footer>
