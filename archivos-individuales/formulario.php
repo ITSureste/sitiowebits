@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="utf-8">
-	<title>Contactanos</title>
-	<link rel="stylesheet" media="screen" href="css/estilo.css" >
-</head>
-<body>
-<form class="formulario_cnt" action="#" method="post">
+
+<div id="contacto">
+
+	<form class="formulario_cnt" action="#" method="post">
     <ul>
         <li>
              <h2>Contáctanos</h2>
@@ -35,6 +30,5 @@
         	<button class="submit" type="submit">Enviar</button>
         </li>
     </ul>
-</form>
-</body>
-</html>
+	</form>
+</div>

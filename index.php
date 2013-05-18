@@ -16,7 +16,7 @@
 		</header>
 
 		<section id="desplazamiento-de-imagenes">
-			<? include_once "archivos-individuales/desplazamiento-de-imagenes.php" ?>
+			<? //include_once "archivos-individuales/desplazamiento-de-imagenes.php" ?>
 		</section>
 
 		<section id="informacion-principal">
@@ -25,7 +25,6 @@
 		
 		<? //include_once "archivos-individuales/redes-sociales.php" ?>
 
-		<? include_once "archivos-individuales/submenu2.php" ?>
 		<footer>
 			<? include_once "archivos-globales/pie.php" ?>
 		</footer>

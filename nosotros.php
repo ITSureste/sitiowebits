@@ -16,7 +16,7 @@
 		</header>
 
 		<section>
-			<? include_once "archivos-individuales/noso.php" ?>
+			<? //include_once "archivos-individuales/noso.php" ?>
 			
 		</section>
 		<footer>
