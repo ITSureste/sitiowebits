@@ -8,8 +8,6 @@
 </head>
 
 <body id="nosotros">
-	<? include_once "contactanos.php"?>
-	
 	<div id="contenedor">
 		<header>
 			<? include_once "archivos-globales/encabezado.php" ?>

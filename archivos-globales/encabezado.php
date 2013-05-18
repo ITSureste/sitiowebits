@@ -7,16 +7,16 @@
 <nav id="navigation">				
 	<ul>
 		<li>
-			<a id="idIndex" href="index.php" class="navShow navShowActive">Inicio</a>
+			<a class="inicio" href="index.php">Inicio</a>
 		</li>
 		<li>
-			<a id="idServicio" class="navShow" href="servicios.php">Servicios</a>				
+			<a class="servicios" href="servicios.php">Servicios</a>				
 		</li>
 		<li>
-			<a id="idNosotros" class="navShow" href="nosotros.php">Nosotros</a>				
+			<a class="nosotros" href="nosotros.php">Nosotros</a>				
 		</li>
 		<li>
-			<a id="idContacto" class="navShow">Otros</a>			
+			<a class="contactanos" href="contactanos.php">Contactanos</a>			
 		</li>
 	</ul>					
 </nav>

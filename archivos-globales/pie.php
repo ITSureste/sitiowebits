@@ -3,23 +3,23 @@
 		<span>SIGUENOS</span>		
 		<ul>
 			<li>
-				<img src="img/icon-facebook.png" />
+				<img src="img/facebook.png" />
 				<a target="_blank" href="https://www.facebook.com/innovaciones.tecnologicasdelsureste">Facebook</a>
 			</li>
 			<li>
-				<img src="img/icon-twitter.png" />
+				<img src="img/twitter.png" />
 				<a target="_blank" href="https://twitter.com/ITSureste">Twitter</a>
 			</li>
 			<li>
-				<img src="img/icon-youtube.png" />
+				<img src="img/youtube.png" />
 				<a target="_blank" href="#">Youtube</a>
 			</li>
 			<li>
-				<img src="img/icon-linkedin.png" />
+				<img src="img/linkedin.png" />
 				<a target="_blank" href="#">LinkedIn</a>
 			</li>
 			<li>
-				<img src="img/icon-skype.png" />
+				<img src="img/skype.png" />
 				<a target="_blank" href="#">Skype</a>
 			</li>			
 		</ul>		
